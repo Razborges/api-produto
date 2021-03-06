@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-color-Service
+spec:
+  selector:
+    app: nginx-color # precisa ser o label dos pods
+  ports:
+    - port: 80
+      nodePort: 30000
+  type: NodePort
