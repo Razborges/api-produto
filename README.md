@@ -43,7 +43,7 @@
   Para acessar: ```localhost:8282```, email e senha no _values.yaml_ em Grafana
   Vá até a aba DataSources no Grafana, adicione o Prometheus e configure a URL como _http://prometheus-server_
 
-  
+
 
 ## Site com imagens helm
 
